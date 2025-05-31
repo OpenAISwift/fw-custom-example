@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <msq xmlns="http://www.msefi.com/:msq">
     <page/>
-    <page number="0" size="24332">
+    <page number="0" size="24192">
         <constant name="accelerometerCsPin">"NONE"</constant>
         <constant name="accelerometerCsPinMode">"default"</constant>
         <constant name="accelerometerSpiDevice">"Off"</constant>
@@ -561,7 +561,7 @@
         <constant name="brakePedalPin">"NONE"</constant>
         <constant name="brakePedalPinMode">"PULLUP"</constant>
         <constant digits="0" name="byFirmwareVersion" units="index">0.0</constant>
-        <constant digits="0" name="calibrationBirthday" units="">2.0250529E7</constant>
+        <constant digits="0" name="calibrationBirthday" units="">2.0250531E7</constant>
         <constant digits="0" name="camDecoder2jzPosition" units="angle">95.0</constant>
         <constant digits="0" name="camDecoder2jzPrecision" units="">40.0</constant>
         <constant name="camInputs1">"NONE"</constant>
@@ -2037,56 +2037,38 @@
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
 </constant>
         <constant name="ignBlends4_yAxisOverride">"Zero"</constant>
-        <constant cols="1" digits="0" name="ignitionCltCorrLoadBins" rows="5">
+        <constant cols="1" digits="0" name="ignitionCltCorrLoadBins" rows="3">
          0.0
-         35.0
          70.0
-         105.0
          140.0
 </constant>
-        <constant cols="5" digits="1" name="ignitionCltCorrTable" rows="5">
-         0.0 0.0 0.0 0.0 0.0
-         0.0 0.0 0.0 0.0 0.0
-         0.0 0.0 0.0 0.0 0.0
-         0.0 0.0 0.0 0.0 0.0
-         0.0 0.0 0.0 0.0 0.0
+        <constant cols="3" digits="1" name="ignitionCltCorrTable" rows="3">
+         0.0 0.0 0.0
+         0.0 0.0 0.0
+         0.0 0.0 0.0
 </constant>
-        <constant cols="1" digits="0" name="ignitionCltCorrTempBins" rows="5">
+        <constant cols="1" digits="0" name="ignitionCltCorrTempBins" rows="3">
          -20.0
-         0.0
          20.0
-         40.0
          60.0
 </constant>
         <constant digits="1" name="ignitionDwellForCrankingMs" units="ms">6.0</constant>
-        <constant cols="1" digits="0" name="ignitionIatCorrLoadBins" rows="8">
+        <constant cols="1" digits="0" name="ignitionIatCorrLoadBins" rows="4">
          0.0
-         20.0
-         40.0
-         60.0
-         80.0
-         100.0
-         120.0
+         45.0
+         95.0
          140.0
 </constant>
-        <constant cols="8" digits="1" name="ignitionIatCorrTable" rows="8">
-         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-         0.0 0.0 0.0 0.0 0.0 0.0 -1.0 -2.0
-         0.0 0.0 0.0 0.0 0.0 -1.0 -2.0 -3.0
-         0.0 0.0 0.0 0.0 0.0 -1.0 -2.0 -3.0
-         0.0 0.0 0.0 0.0 0.0 -1.0 -2.0 -3.0
-         0.0 0.0 0.0 0.0 0.0 -1.0 -2.0 -3.0
-         0.0 0.0 0.0 0.0 0.0 -1.0 -2.0 -3.0
+        <constant cols="4" digits="1" name="ignitionIatCorrTable" rows="4">
+         0.0 0.0 0.0 0.0
+         0.0 0.0 0.0 0.0
+         0.0 0.0 0.0 0.0
+         0.0 0.0 0.0 0.0
 </constant>
-        <constant cols="1" digits="0" name="ignitionIatCorrTempBins" rows="8">
+        <constant cols="1" digits="0" name="ignitionIatCorrTempBins" rows="4">
          -40.0
-         0.0
-         10.0
-         20.0
-         30.0
-         40.0
-         50.0
+         -7.0
+         27.0
          60.0
 </constant>
         <constant name="ignitionKeyDigitalPin">"NONE"</constant>
@@ -5057,7 +5039,7 @@ end</constant>
 </constant>
         <constant name="yesUnderstandLocking">"no"</constant>
     </page>
-    <versionInfo firmwareInfo="20250523" nPages="1" signature="rusEFI main.2025.05.29.XYZ.331441454" version="5.0"/>
+    <versionInfo firmwareInfo="20250523" nPages="1" signature="rusEFI main.2025.05.31.custom_proteus_f4.825013733" version="5.0"/>
     <bibliography author="rusEFI 20250523" writeDate="date"/>
     <settings/>
     <userComments/>
