@@ -5037,7 +5037,7 @@ end</constant>
 </constant>
         <constant name="yesUnderstandLocking">"no"</constant>
     </page>
-    <versionInfo firmwareInfo="20250523" nPages="1" signature="rusEFI main.2025.05.31.custom_proteus_f4.825013733" version="5.0"/>
+    <versionInfo firmwareInfo="20250523" nPages="1" signature="rusEFI main.2025.05.31.custom_proteus_f4.128190837" version="5.0"/>
     <bibliography author="rusEFI 20250523" writeDate="date"/>
     <settings/>
     <userComments/>
